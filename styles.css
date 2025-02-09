@@ -1,0 +1,145 @@
+/* ================ *\
+     Basic Styles
+\* ================ */
+
+body {
+  text-align: center;
+  font-family: "Orbitron", sans-serif;
+  background: linear-gradient(#a2d2ff, #efb0c9);
+  color: #ffffff;
+  background-image: url("images/background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 30px 0;
+}
+
+/* ================ *\
+     Hero Section
+\* ================ */
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.hero-img {
+  width: 450px;
+  border: 3px solid #e9cd3a;
+  margin: 30px 0;
+}
+
+/* ================ *\
+     Typography
+\* ================ */
+
+.heading-primary {
+  letter-spacing: 2px;
+  font-size: 48px;
+}
+
+.heading-tertiary {
+  letter-spacing: 3px;
+}
+
+.birthday-age,
+.birthday-date {
+  background: rgb(233, 205, 58, 0.25);
+  border: 2px solid #e9cd3a;
+  padding: 10px 20px;
+  border-radius: 5px;
+  letter-spacing: 2px;
+}
+
+.birthday-age {
+  margin: 5px 0 10px 0;
+}
+
+/* ===================== *\
+    Gift Card's Section
+\* ===================== */
+
+.gift-cards-container {
+  margin-top: 150px;
+}
+
+.gift-card {
+  margin: 150px 0;
+}
+
+.gift-card-title {
+  font-size: 32px;
+  margin-bottom: 32px;
+}
+
+.gift-card-hint {
+  margin-top: 0;
+  letter-spacing: 6px;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.gift-card-img {
+  margin: 60px auto;
+  max-width: 400px;
+  height: 400px;
+  border: 7px solid #e9cd3a;
+  background-image: url("images/gift-cover.png");
+  background-size: cover;
+  background-position: center;
+}
+
+#gift-img-happy:hover {
+  background-image: url("images/happy.gif");
+}
+
+#gift-img-hot:hover {
+  background-image: url("images/hot.gif");
+}
+
+#gift-img-genius:hover {
+  background-image: url("images/genius.gif");
+}
+
+#gift-img-badass:hover {
+  background-image: url("images/badass.gif");
+}
+
+#gift-img-cheers:hover {
+  background-image: url("images/cheers.gif");
+}
+
+/* ===================== *\
+    Footer Section
+\* ===================== */
+
+.footer {
+  font-style: italic;
+  font-size: 32px;
+  margin: 40px auto 20px;
+}
+
+.footer span {
+  display: block;
+  margin-top: 16px;
+}
+
+.course-link:link,
+.course-link:visited {
+  color: #e9cd3a;
+}
+
+.course-link:hover,
+.course-link:active {
+  text-decoration: none;
+}
+
+/* ===================== *\
+    Utility Classes
+\* ===================== */
+
+.border-bottom {
+  padding-bottom: 3px;
+  border-bottom: 4px solid #e9cd3a;
+}
